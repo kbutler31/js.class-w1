@@ -71,3 +71,13 @@ console.log(fullName);
 //	including the name, and saying that they live at the address variable
 //  ↓ YOUR CODE HERE ↓
 console.log("This is " + fullName + " who lives at " + streetAddress);
+
+var i = 0;
+
+ do{
+    if(i % 3 === 0){
+       console.log(i);
+    }
+    i++;
+ }
+ while (i <= 99);
